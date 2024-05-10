@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Демократія</title>
+    <style>
+      .word-info p:hover {
+           font-size: 60px;
+       }
+        body {
+          background-image: url('background.jpg');
+          background-size: 1500px 1000px;
+        }
+        h1{
+          font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+                color:#FFF;
+          margin: 0px;
+          text-shadow:rgba(0, 0, 0, 1) 3px 2px 0;
+        }
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .word {
+            display: flex;
+            align-items: center;
+        }
+        .word-info {
+            margin-left: 20px; /* Відступ тексту від фото */
+            margin-right: 20px; /* Відступ тексту з правого боку */
+        }
+        .word-info p {
+            text-align: right; /* Вирівнювання тексту справа */
+        }
+        .word-img {
+            margin-left: 20px; /* Відступ фото з лівого краю */
+        }
+        .center {
+            text-align: center;
+        }
+        .article{
+        font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+                color:#FFF;
+        	text-shadow:rgba(0, 0, 0, 1) 3px 2px 0;
+                font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <a class="logo" href="Тлумачний словник.html" itemprop="url">
+                        <img class="logoImg" src="home.png" width="50" height="50" alt="logo" itemprop="logo">
+                    </a>
+                </td>
+                <td>
+                    <form id="searchJsForm" action="/ukr/gsearch/" data-section="gsearch" class="DsrchWr">
+                        <input type="text" autocomplete="off" name="search" placeholder="Що ви шукаєте?" data-search="true" class="iIco">
+                        <input type="submit" value="Пошук" class="btn40 bgBaseP b">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <h1 class="center">Демократія</h1>
+
+    <div class="main">
+        <div class="word">
+            <div class="word-img">
+                <img src="демократія.png" width="600" height="600">
+            </div>
+            <div class="word-info">
+                <div class="article">
+                    <p>
+                        Система правління, в якій влада належить народу або його представникам.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+</body>
+</html>
